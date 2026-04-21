@@ -20,6 +20,6 @@ def detail(request, id):
  
     context = {
         'book': book,
-        'form': form,
+        
     }
     return render(request, 'books/detail.html', context)
