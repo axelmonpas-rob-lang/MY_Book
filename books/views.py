@@ -3,7 +3,7 @@ from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 
 
-from .models import Book, Category
+from .models import Book, category
 
 
 # Create your views here.
